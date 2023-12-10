@@ -1,11 +1,11 @@
-# Lab2
+# Lab 2
 
 ## Bài 1. Bài tập tạo trang web cơ bản bằng http module trong NodeJS.
 Sử dụng http module để tạo một trang web tính toán cơ bản như hình bên dưới. Khi truy cập http://localhost/ thì trang web sẽ hiển thị một html form như hình bên dưới. Khi nhấn nút "Tính", kết quả sẽ được hiển thị tại http://localhost/result.
 
 Yêu cầu:
-• Toàn bộ chương trình chỉ được viết trong một tập tin main.js duy nhất.
-• Kiểm tra lỗi nếu có và hiển thị thông báo lỗi phù hợp.
+- Toàn bộ chương trình chỉ được viết trong một tập tin main.js duy nhất.
+- Kiểm tra lỗi nếu có và hiển thị thông báo lỗi phù hợp.
 
 ## Bài 2. Bài tập xử lý POST request bằng http module
 Thực hiện một bài tập khác tương tự như bài tập 1.

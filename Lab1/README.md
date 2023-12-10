@@ -1,4 +1,4 @@
-# Lab1
+# Lab 1
 
 ## Ex1. Bài tập về Ajax (XMLHttpRequest) và Document Object Model (DOM)
 Thực hiện các yêu cầu sau:
