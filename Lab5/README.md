@@ -19,6 +19,7 @@ Hãy sử dụng nodejs và các module như http, express, ejs,… để tạo 
 - Rest API đã được cung cấp sẵn tại https://web-nang-cao.herokuapp.com/lab5/, sinh viên truy cập liên kết bên trên để xem thông tin mô tả về các api endpoints.
 - Khi người dùng cần xem danh sách users, thêm user, cập nhật user hoặc xóa một user thì phía nodejs cần chuyển tiếp yêu cầu đến các api endpoints bên dưới để thực hiện chức năng tương ứng.
 - Về mặt kỹ thuật, nodejs của chúng ta lúc này đóng vai trò như là một “forwarder”, nó tiếp nhận yêu cầu từ người truy cập sau đó chuyển tiếp yêu cầu đến REST API, nhận lại kết quả rồi báo lại cho người truy cập trang web.
+  
 *Phía front end hoàn hoàn có thể sử dụng ajax/fetch để gọi trực tiếp đến rest api để lấy dữ liệu mà không cần thông qua phía nodejs backend. Tuy nhiên điều này chỉ có thể được thực hiện nếu cơ chế Cross-Origin Resource Sharing được thiết lập phù hợp. Mặc định ajax/fetch chỉ có thể đọc được dữ liệu ở phía server nếu client và server có cùng tên miền. Các ajax/fetch request từ front end đến một server khác tên miền sẽ bị block bởi hầu hết các trình duyệt vì lý do bảo mật. Trong khi đó phía NodeJS là back end, không liên quan gì đến các trình duyệt nên không bị kiểm soát bởi cơ chế này do đó có thể tự do đọc dữ liệu từ bất kỳ api nào.* 
 
 ## Các yêu cầu khác:
